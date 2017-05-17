@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Redis ReJSON adapter}
   spec.description   = %q{Redis ReJSON (v4 Module - json manipulation) API adapter}
   spec.homepage      = "https://github.com/makevoid/redis-rejson-rb"
-  spec.license       = "UNLICENSE"
+  spec.license       = "Unlicense"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
