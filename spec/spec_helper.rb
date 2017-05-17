@@ -1,4 +1,5 @@
-require_relative '../redis_rejson'
+require_relative '../lib/redis_rejson'
+# require "redis_rejson"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

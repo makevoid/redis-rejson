@@ -1,10 +1,10 @@
 # Redis ReJSON
 
-Redis ReJSON (v4 Module - json manipulation) adapter for Ruby's Redis-rb - WIP Edit
+Redis ReJSON (v4 Module - json manipulation) adapter for Ruby's Redis-rb - WIP
 
-Installation 
+#### Installation
 
-Compile the ReJSON module - configure redis (you need v4) to load it ( loadmodule /etc/redis/modules/rejson/rejson.so in `redis.conf` ) 
+Compile the ReJSON module - configure redis (you need v4) to load it ( loadmodule /etc/redis/modules/rejson/rejson.so in `redis.conf` )
 
 
 Documentation of ReJSON - https://redislabsmodules.github.io/rejson/commands/#jsonstrlen
@@ -52,5 +52,3 @@ next:
 - arrays
 - objects
 - etc
-
-

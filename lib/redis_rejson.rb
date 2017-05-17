@@ -1,4 +1,5 @@
 require 'redis'
+require_relative "redis_rejson/version"
 
 class Redis
 
