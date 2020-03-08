@@ -59,9 +59,8 @@ describe "RedisReJSON" do
   end
 
   it "gets the length of a string" do
+    set = R.json_set "foo", '"bar"'
     len = R.json_str_len "foo"
-    len = R.json_str_len "foo", p: "a"
-
   end
 
   # num
