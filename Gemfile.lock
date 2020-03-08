@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    redis_rejson (0.1.0)
+    redis_rejson (0.2.0)
       redis (~> 3.3)
 
 GEM
