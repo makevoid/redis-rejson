@@ -1,6 +1,11 @@
 # Redis ReJSON
 
-Redis ReJSON (v4 Module - json manipulation) adapter for Ruby's Redis-rb - WIP
+Redis ReJSON (v4 Module - json manipulation) adapter for Ruby's Redis-rb - status: beta release
+
+For a more complete implementation look at the newer https://rubygems.org/gems/rejson-rb
+
+For an ORM build on top of `redis-rjson-rb` check out https://github.com/makevoid/redijson_models
+
 
 #### Installation
 
@@ -32,23 +37,22 @@ else, check the specs ( https://github.com/makevoid/redis-rejson-rb/blob/master/
 
 ---
 
-Soon:
+### Install
+
+Add this gem to your gemfile:
 
 ```
 gem "redis_rejson"
 ```
 
+Then run bundle:
+
+```
+bundle
+```
+
 ---
 
-wip
+Enjoy :)
 
-- key/value
-- num
-- strings
-- ...
-
-next:
-
-- arrays
-- objects
-- etc
+@makevoid
